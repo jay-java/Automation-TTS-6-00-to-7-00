@@ -1,0 +1,23 @@
+package core;
+//Assignment -> =,+=,-=,*=,/=
+//Arithmetic -> +,-,*,/,%(modulo)
+//Unary -> ++,--
+
+//Relational -> < ,>, <= ,>= 
+//equality -> == ,!=
+//Logical -> &&, ||
+
+public class P003_Operators {
+	public static void main(String[] args) {
+		int i = 10;
+		int j = 3;
+		System.out.println(i+j);
+		System.out.println(i-j);
+		System.out.println(i*j);
+		System.out.println(i/j);
+		System.out.println(i%j);
+		//10
+		i += 20; // i = i+10;
+		System.out.println(i);
+	}
+}

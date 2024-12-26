@@ -1,0 +1,16 @@
+package core;
+//Assignment -> =,+=,-=,*=,/=
+
+//Unary -> ++,--
+//Arithmetic -> +,-,*,/,%
+//Relational -> < ,>, <= ,>= 
+//equality -> == ,!=
+//Logical -> &&, ||
+
+public class P003_Operators {
+	public static void main(String[] args) {
+		int i = 1;
+		int j = 1;
+		System.out.println(i*j);
+	}
+}
