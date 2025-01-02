@@ -1,0 +1,11 @@
+package core;
+
+public class P005_ConditionalStatements {
+	public static void main(String[] args) {
+		// 1.simple if
+		int a = 10, b = 20;
+		if (a > b) {
+			System.out.println("a is greater than b");
+		}
+	}
+}

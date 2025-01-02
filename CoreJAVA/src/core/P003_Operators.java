@@ -35,5 +35,33 @@ public class P003_Operators {
 		double radius = 13.45;
 		System.out.println("area of traingle = " + (Math.PI * radius * radius));
 
+		// unary
+		int a = 15;
+		a++;// a = a+1 (post increment)
+		System.out.println(a);
+		a--;
+		System.out.println(a);
+		++a;// (pre-increment)
+		System.out.println(a);
+		--a;
+		System.out.println(a);
+		// a = 15
+
+		int b = a++;
+		System.out.println("b = " + b);
+		System.out.println("a = " + a);
+
+		System.out.println(a > b);
+		System.out.println(a < b);
+		int a1 = 12;
+		int b1 = 15;
+		System.out.println(a1 >= b1);
+		System.out.println(a1 <= b1);
+
+		// equality
+		int p = 1;
+		int q = 2;
+		System.out.println(p == q);
+		System.out.println(p != q);
 	}
 }
