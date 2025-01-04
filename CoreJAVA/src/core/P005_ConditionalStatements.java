@@ -26,5 +26,63 @@ public class P005_ConditionalStatements {
 		} else {
 			System.out.println("age is less than 18");
 		}
+
+		// else if ladder
+		int marks = 84;
+		if (marks < 35) {
+			System.out.println("fail");
+		} else if (marks >= 35 && marks <= 60) {
+			System.out.println("pass class");
+		} else if (marks >= 61 && marks <= 70) {
+			System.out.println("C grade");
+		} else if (marks >= 71 && marks <= 80) {
+			System.out.println("B grade");
+		} else if (marks >= 81 && marks <= 90) {
+			System.out.println("A grade");
+		} else if (marks >= 91 && marks <= 100) {
+			System.out.println("A+ grade");
+		} else {
+			System.out.println("invalid input");
+		}
+
+		// 5.switch case
+		System.out.println("enter your choice : ");
+		System.out.println("1.English");
+		System.out.println("2.Hindi");
+		System.out.println("3.Gujarati");
+		int choice = 2;
+
+		switch (choice) {
+		case 1:
+			System.out.println("you selected english");
+			break;
+
+		case 2:
+			System.out.println("you selected hindi");
+			break;
+
+		case 3:
+			System.out.println("you selected gujarati");
+			break;
+
+		default:
+			System.out.println("invalid input");
+		}
+		
+		double radius = 13;
+		double height = 23;
+		double area = (2*Math.PI*radius*height)+(2*Math.PI*radius*radius);
+		System.out.println("surface area of cylinder = "+area);
+		System.out.println("surface area of cylinder = "+((2*Math.PI*radius*height)+(2*Math.PI*radius*radius)));
+	
+	
+		int age1 = 18;
+		boolean haveElectionCard = true;
+		if(haveElectionCard && age1 == 18) {
+			System.out.println("yes have an e-card and can vote");
+		}
+		else {
+			System.out.println("don't have an e-card");
+		}
 	}
 }
