@@ -1,0 +1,7 @@
+package core;
+
+public class P008_Programs {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,20 @@
+package core;
+
+class Data{
+	public void call() {
+		System.out.println("hello call function");
+	}
+	public void run() {
+		System.out.println("hello run in data class");
+	}
+}
+public class P006_UserInput {
+	public static void main(String[] args) {
+		int i=1,j=12;
+		System.out.println(i+j);
+		Data d = new Data();
+		d.run();
+		d.call();
+	}
+	
+}

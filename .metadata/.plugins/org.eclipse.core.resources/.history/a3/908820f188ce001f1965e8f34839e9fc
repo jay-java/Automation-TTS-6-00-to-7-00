@@ -1,0 +1,12 @@
+package core;
+//for
+//while
+//do while
+//for each
+public class P006_Loops {
+	public static void main(String[] args) {
+		for() {
+			
+		}
+	}
+}

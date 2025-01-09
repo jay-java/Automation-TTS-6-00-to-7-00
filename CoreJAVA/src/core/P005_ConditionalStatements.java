@@ -16,7 +16,7 @@ public class P005_ConditionalStatements {
 		}
 
 		// nested if
-		int age = 43;
+		int age = 65;
 		if (age > 18) {
 			if (age < 55) {
 				System.out.println("you are eligible");
@@ -68,20 +68,21 @@ public class P005_ConditionalStatements {
 		default:
 			System.out.println("invalid input");
 		}
-		
+
 		double radius = 13;
 		double height = 23;
-		double area = (2*Math.PI*radius*height)+(2*Math.PI*radius*radius);
-		System.out.println("surface area of cylinder = "+area);
-		System.out.println("surface area of cylinder = "+((2*Math.PI*radius*height)+(2*Math.PI*radius*radius)));
-	
-	
-		int age1 = 18;
+		double area = (2 * Math.PI * radius * height) + (2 * Math.PI * radius * radius);
+		System.out.println("surface area of cylinder = " + area);
+		System.out.println(
+				"surface area of cylinder = " + ((2 * Math.PI * radius * height) + (2 * Math.PI * radius * radius)));
+
+		int age1 = 17;
 		boolean haveElectionCard = true;
-		if(haveElectionCard && age1 == 18) {
+		if (haveElectionCard && age1 > 18) {
 			System.out.println("yes have an e-card and can vote");
-		}
-		else {
+		} else if (haveElectionCard && age1 < 18) {
+			System.out.println("yes have an e-card but not greater than 18");
+		} else {
 			System.out.println("don't have an e-card");
 		}
 	}

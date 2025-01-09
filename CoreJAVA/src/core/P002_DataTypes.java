@@ -2,9 +2,9 @@ package core;
 
 public class P002_DataTypes {
 	public static void main(String[] args) {
-		byte b = 127;//1
-		System.out.println("byte value = "+b);
-		short s = 12;//2
+		byte shivangi = 127;//1
+		System.out.println("byte value = "+shivangi);
+		short s = 32767;//2
 		System.out.println("short value = "+s);
 		int i = 12;//4
 		System.out.println("integer value = "+i);

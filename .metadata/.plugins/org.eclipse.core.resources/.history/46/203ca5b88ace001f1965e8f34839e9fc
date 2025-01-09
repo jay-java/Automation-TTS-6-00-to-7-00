@@ -1,0 +1,8 @@
+package core;
+
+public class P006_UserInput {
+	public static void main(String[] args) {
+		int i=1,j=2;
+		System.out.println(i+j);
+	}
+}
