@@ -14,7 +14,6 @@ public class P01_BrowserConnection {
 //		System.setProperty("webdriver.edge.driver", "C:\\Users\\user\\Downloads\\edgedriver_win64\\msedgedriver.exe");
 //		WebDriver driver = new EdgeDriver();
 		
-		
 		//1.for chrome
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\user\\Downloads\\chromedriver-win64\\chromedriver.exe");
@@ -29,5 +28,6 @@ public class P01_BrowserConnection {
 		WebElement loginBTN = driver.findElement(By.name("login"));
 		loginBTN.click();
 //		driver.close();
+		//*[@id="month"]
 	}
 }
