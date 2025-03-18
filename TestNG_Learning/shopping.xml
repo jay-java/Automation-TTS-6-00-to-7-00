@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="shopping.Sller" />
+			<class name="shopping.Product" />
+			<class name="shopping.Customer" />
+			<class name="shopping.Cart" />
+			<class name="shopping.Payment" />
+		</classes>
+	</test>
+   <test thread-count="5" name="Test1">
+    <classes>
+      <class name="shopping.Sller"/>
+      <class name="shopping.Product"/>
+      <class name="shopping.Customer"/>
+      <class name="shopping.Payment"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
