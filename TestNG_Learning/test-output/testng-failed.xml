@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basic.P03_Dependency">
+      <class name="listener.FB">
         <methods>
-          <include name="profile"/>
-          <include name="logout"/>
-          <include name="login"/>
-          <include name="createAccount"/>
-          <include name="changePassword"/>
+          <include name="login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- basic.P03_Dependency -->
+      </class> <!-- listener.FB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
