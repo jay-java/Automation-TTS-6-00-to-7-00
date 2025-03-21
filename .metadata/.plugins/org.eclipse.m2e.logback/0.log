@@ -2192,3 +2192,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2025-03-20 19:23:25,668 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\TestNG_Learning\src\test\resources
 2025-03-20 19:24:00,547 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\TestNG_Learning\src\main\resources
 2025-03-20 19:24:00,547 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\TestNG_Learning\src\test\resources
+2025-03-20 19:24:39,221 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\TestNG_Learning\src\main\resources
+2025-03-20 19:24:39,223 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\TestNG_Learning\src\test\resources
+2025-03-20 19:28:18,934 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\TestNG_Learning\src\main\resources
+2025-03-20 19:28:18,935 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\TestNG_Learning\src\test\resources
