@@ -12,8 +12,8 @@ public class FBListener implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		System.out.println("fun called");
-		WebDriver driver = (WebDriver)result.getAttribute("driver");
+		System.out.println("fun called : "+result);
+		WebDriver driver = (WebDriver)result.getTestContext().getAttribute("myDriver");
 		String path = "D:\\screenshot\\"+result.getName()+".png";
 		TakesScreenshot ss = (TakesScreenshot)driver;
 		System.out.println(ss);
