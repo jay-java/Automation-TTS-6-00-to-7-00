@@ -3117,3 +3117,20 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2025-04-01 18:50:07,514 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
 2025-04-01 18:50:07,669 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
 2025-04-01 18:50:07,670 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-01 18:50:09,719 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-01 18:50:09,720 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-08 18:37:17,147 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-08 18:38:02,947 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-08 18:38:02,951 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-08 18:38:14,255 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-08 18:38:14,257 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-08 18:38:25,529 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-08 18:38:25,532 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-08 18:38:33,777 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-08 18:38:33,779 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-08 18:38:46,744 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-08 18:38:46,746 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-08 18:39:11,533 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-08 18:39:11,535 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
+2025-04-08 18:39:24,278 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\main\resources
+2025-04-08 18:39:24,280 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Automation TTS 6-7\DataDriver\src\test\resources
